@@ -4,9 +4,8 @@ import { StyleSheet, Text, View } from 'react-native';
 export default class InstagramScreen extends React.Component {
      render(){
         return(
-                
-                <View style={styles.container}>
-                <Text style={styles.textin}>Instagram</Text>
+            <View style={styles.container}>
+              <Text style={styles.textin}>Instagram</Text>
             </View>
         );
     }
@@ -15,7 +14,7 @@ export default class InstagramScreen extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-     marginTop:200,
+     marginTop:100,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',

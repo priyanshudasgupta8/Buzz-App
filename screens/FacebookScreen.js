@@ -4,11 +4,9 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default class FacebookScreen extends React.Component {
     render(){
-        return(
-                
-                <View style={styles.container}>
-                <Text style={styles.textfb}>Facebook</Text>
-            
+        return(      
+            <View style={styles.container}>
+              <Text style={styles.textfb}>Facebook</Text>
             </View>
         );
     }
@@ -18,7 +16,7 @@ export default class FacebookScreen extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex:1,
-    marginTop:200,
+    marginTop:100,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
